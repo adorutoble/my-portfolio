@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* 1. Beritahu Tailwind v4 cara menangani class .dark dari ThemeToggle */
+@variant dark (&:where(.dark, .dark *));
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
