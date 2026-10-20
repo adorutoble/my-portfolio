@@ -9,7 +9,7 @@ export type ExperienceItem = {
 export const experiences: ExperienceItem[] = [
   {
     year: "September 2025 - December 2025",
-    position: "Front-End Developer",
+    position: "Front-End Developer Intern",
     company: "PT Dirgantara Indonesia",
     location: "Bandung, Indonesia",
     description:
@@ -17,7 +17,7 @@ export const experiences: ExperienceItem[] = [
   },
   {
     year: "February 2024",
-    position: "Data Entry Admin",
+    position: "Data Entry Volunteer",
     company: "Tim Tabulasi DPC Baleendah",
     location: "Bandung, Indonesia",
     description:
@@ -25,7 +25,7 @@ export const experiences: ExperienceItem[] = [
   },
   {
     year: "October 2020 - December 2020",
-    position: "Web Operator",
+    position: "Web Operator Intern",
     company: "TOP ARMY",
     location: "Bandung, Indonesia",
     description:

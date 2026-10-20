@@ -8,7 +8,7 @@ import Education from "@/components/Education";
 
 export default function Home() {
   return (
-    <main className="mx-auto min-h-screen max-w-2xl px-6 py-10 sm:px-8 sm:py-12">
+    <main className="mx-auto min-h-screen max-w-3xl px-5 py-7 sm:px-8 sm:py-10">
       <Header />
 
       <section className="mt-10 sm:mt-12">
@@ -16,7 +16,7 @@ export default function Home() {
           Hello, I'm
         </p>
 
-        <h1 className="mt-2 text-4xl font-arial tracking-tight sm:text-5xl md:text-6xl">
+        <h1 className="mt-2 text-4xl font-arial tracking-tight sm:text-4xl md:text-5xl">
           Shobrina Naila
         </h1>
 
