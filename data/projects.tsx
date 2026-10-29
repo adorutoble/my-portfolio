@@ -16,166 +16,172 @@ export type Project = {
 };
 
 export const projects: Project[] = [
-  {
-    slug: "project-one",
-    title: "Dynamic Skill Matrix",
-    type: "Web Application",
+{
+  slug: "project-one",
+  title: "Dynamic Skill Matrix",
+  type: "Web Application",
 
-    description:
-      "A web-based information system for employee competency management and skill tracking.",
+  description:
+    "A web-based information system for employee competency management and skill tracking.",
 
-    overview:
-      "Dynamic Skill Matrix is a web-based system designed to support employee competency management. It organizes employee skill information to support competency tracking and provide insights for employee development.",
+  overview:
+    "Dynamic Skill Matrix is a web-based application designed to support employee competency management at PT Dirgantara Indonesia. It brings together employee skill information, training records, competency approval workflows, and reporting to support competency management across the organization.",
 
-    background:
-      "Managing employee competencies requires a structured way to organize skill information and monitor proficiency levels. Dynamic Skill Matrix was developed to support centralized competency tracking and help identify areas for employee development.",
+  background:
+    "Dynamic Skill Matrix was developed as part of the company's Research and Development (R&D) activities during a internship program at PT Dirgantara Indonesia, an Indonesian state-owned aerospace company. The project was carried out by our team of three students under the guidance of a company manager. The application was designed to support competency management across the organization, with the Training and Education (Diklat) function managing the application and supervisors and managers involved in assigning and approving employee competencies within their respective divisions. Employees were also included among the intended users of the system.",
 
-    role: "UI/UX Designer & Frontend Developer",
+  role: "UI/UX Designer & Frontend Developer Intern",
 
-    contributions: [
-      "Designed the user interface and user experience based on the application's requirements.",
-      "Collaborated with the manager to refine the interface according to the company's operational needs.",
-      "Translated UI/UX designs into responsive website interfaces using frontend technologies.",
-      "Contributed to frontend implementation and frontend-backend integration.",
-    ],
+  contributions: [
+    "Designed the user interface and user experience based on application requirements and user needs.",
+    "Collaborated with the company manager to refine interface designs according to the company's operational requirements.",
+    "Translated UI/UX designs into functional website interfaces using frontend technologies.",
+    "Implemented frontend components and contributed to backend logic for the competency approval workflow, including manager confirmation.",
+    "Contributed to frontend-backend integration to support application workflows.",
+    "Participated in application testing and validation, helping identify issues and refine the implementation."
+  ],
 
-    process: [
-      "Analyzed application requirements and collaborated with the manager to understand user and business needs.",
-      "Designed interface layouts and interaction flows to support competency management tasks.",
-      "Implemented the approved designs using frontend technologies and styling frameworks.",
-      "Supported frontend-backend integration to connect the interface with application functionality.",
-    ],
+  process: [
+    "Reviewed application requirements and discussed user and operational needs with the company manager.",
+    "Designed interface layouts and interaction flows for employee competency management.",
+    "Refined the designs based on feedback and the company's requirements.",
+    "Implemented the approved designs using frontend technologies within the Laravel application.",
+    "Developed the frontend interface and contributed to backend processing for competency approval and manager confirmation.",
+    "Tested and validated application functionality, then refined the implementation based on identified issues and feedback."
+  ],
 
-    outcome:
-      "Contributed to the development of a centralized employee competency management system through UI/UX design, frontend implementation, and integration work.",
+  outcome:
+    "Contributed to the development and testing of a web-based employee competency management application covering skill tracking, training records, competency approval workflows, and reporting. The application had undergone testing and validation but had not yet been deployed for operational use at the end of the project.",
 
-    stack: [
-      "Laravel",
-      "PHP",
-      "JavaScript",
-      "Tailwind CSS",
-      "MySQL",
-    ],
+  stack: [
+    "Laravel",
+    "PHP",
+    "JavaScript",
+    "Tailwind CSS",
+    "MySQL"
+  ],
 
-    github: "https://github.com/adorutoble/dynamic-skills-matrix",
+  github: "https://github.com/adorutoble/dynamic-skills-matrix",
 
-    images: [
-      "/projects/dynamic-skill-matrix/dms (1).png",
-      "/projects/dynamic-skill-matrix/dms (2).png",
-      "/projects/dynamic-skill-matrix/dms (3).png",
-      "/projects/dynamic-skill-matrix/dms (4).png",
-      "/projects/dynamic-skill-matrix/dms (5).png",
-      "/projects/dynamic-skill-matrix/dms (6).png",
-      "/projects/dynamic-skill-matrix/dms (7).png",
-    ],
-  },
+  images: [
+    "/projects/dynamic-skill-matrix/dms (1).png",
+    "/projects/dynamic-skill-matrix/dms (2).png",
+    "/projects/dynamic-skill-matrix/dms (3).png",
+    "/projects/dynamic-skill-matrix/dms (4).png",
+    "/projects/dynamic-skill-matrix/dms (5).png",
+    "/projects/dynamic-skill-matrix/dms (6).png",
+    "/projects/dynamic-skill-matrix/dms (7).png"
+  ],
+},
 
-  {
-    slug: "project-two",
-    title: "FindU",
-    type: "Full-stack Web Application",
+{
+  slug: "project-two",
+  title: "FindU",
+  type: "Full-stack Web Application",
 
-    description:
-      "A web platform that helps high school graduates explore universities, scholarship opportunities, and higher education options.",
+  description:
+    "A web platform that helps high school graduates explore universities, scholarship opportunities, and higher education options.",
 
-    overview:
-      "FindU is a platform designed to simplify university research for prospective students. It brings university information, scholarship opportunities, and campus comparisons into one place, helping students make more informed decisions about their higher education.",
+  overview:
+    "FindU is a web platform designed to simplify university research for prospective students. It brings university information, scholarship opportunities, and campus comparisons into one place, helping students make more informed decisions about their higher education.",
 
-    background:
-      "Choosing a university can be challenging for high school graduates who need to compare academic programs, tuition fees, and scholarship opportunities across different institutions. FindU was developed to make this information easier to explore and compare through a single web platform.",
+  background:
+    "FindU was developed as a three-month team project for a Software Engineering (Rekayasa Perangkat Lunak) course. The project involved five team members and addressed the challenge prospective students face when researching universities, comparing higher education options, and finding scholarship opportunities. The development process began with team brainstorming and a design sprint, followed by UI/UX design, frontend implementation, documentation, and application testing with five users.",
 
-    role: "UI/UX Designer & Frontend Developer",
+  role: "Frontend Developer",
 
-    contributions: [
-      "Designed the user interface and user experience to organize university and scholarship information clearly.",
-      "Developed interface layouts that support university discovery and campus comparison.",
-      "Translated UI/UX designs into interactive website pages using frontend technologies.",
-      "Contributed to integrating the frontend interface with the application's data and functionality.",
-    ],
+  contributions: [
+    "Independently implemented the frontend interface across the project, translating the UI/UX designs created by a teammate into functional website pages.",
+    "Developed page layouts and interactive interface components using JavaScript and Tailwind CSS.",
+    "Integrated frontend components with application functionality within the Laravel-based web application.",
+    "Collaborated with the five-member team throughout development to align the implementation with the agreed designs and project requirements."
+  ],
 
-    process: [
-      "Identified the information prospective students need when researching universities and scholarships.",
-      "Organized university information, scholarship details, and comparison features into a structured user flow.",
-      "Designed interface layouts to make educational information easier to navigate and understand.",
-      "Implemented the website interface and supported integration with the application's functionality.",
-    ],
+  process: [
+    "Participated in team brainstorming and a design sprint to establish the project direction and identify prospective students' needs.",
+    "Worked from the UI/UX designs prepared by a teammate as the basis for frontend implementation.",
+    "Implemented the website interfaces in code, handling the frontend development independently.",
+    "Worked alongside the team as other members prepared project documentation and supporting deliverables.",
+    "Participated in application testing involving five users to evaluate the developed application."
+  ],
 
-    outcome:
-      "Contributed to a centralized university discovery platform that helps prospective students explore higher education options and scholarship information more conveniently.",
+  outcome:
+    "Delivered the frontend implementation for FindU as part of a three-month academic team project. The application underwent user testing with five participants, providing an opportunity to evaluate the implemented platform before the project concluded.",
 
-    stack: [
-      "Laravel",
-      "JavaScript",
-      "MySQL",
-      "Tailwind CSS",
-    ],
+  stack: [
+    "Laravel",
+    "JavaScript",
+    "MySQL",
+    "Tailwind CSS",
+    "PHP"
+  ],
 
-    github: "https://github.com/adorutoble/findu",
+  github: "https://github.com/adorutoble/findu",
 
-    images: [
-      "/projects/findu/findu1.png",
-      "/projects/findu/findu2.png",
-      "/projects/findu/findu3.png",
-      "/projects/findu/findu4.png",
-      "/projects/findu/findu5.png",
-      "/projects/findu/findu6.png",
-      "/projects/findu/findu7.png",
-      "/projects/findu/findu8.png",
-      "/projects/findu/findu9.png",
-      "/projects/findu/findu10.png",
-    ],
-  },
+  images: [
+    "/projects/findu/findu1.png",
+    "/projects/findu/findu2.png",
+    "/projects/findu/findu3.png",
+    "/projects/findu/findu4.png",
+    "/projects/findu/findu5.png",
+    "/projects/findu/findu6.png",
+    "/projects/findu/findu7.png",
+    "/projects/findu/findu8.png",
+    "/projects/findu/findu9.png",
+    "/projects/findu/findu10.png",
+  ],
+},
 
-  {
-    slug: "project-three",
-    title: "Foodidie",
-    type: "Full-stack Web Application",
+{
+  slug: "project-three",
+  title: "Foodidie",
+  type: "Full-stack Web Application",
 
-    description:
-      "A recipe discovery website featuring cooking instructions, ingredients, and nutritional information.",
+  description:
+    "A recipe discovery website featuring cooking instructions, ingredients, and nutritional information.",
 
-    overview:
-      "Foodidie is a recipe discovery website that allows users to explore different meals, view their ingredients and cooking instructions, and check nutritional information such as calorie content. The website uses the Spoonacular API to provide recipe and nutrition data in one place.",
+  overview:
+    "Foodidie is a recipe discovery website that allows users to explore different meals, view their ingredients and cooking instructions, and check nutritional information such as calorie content. The application uses the Spoonacular API to retrieve recipe and nutritional data.",
 
-    background:
-      "Finding recipes that match personal preferences can involve searching across multiple sources and checking nutritional information separately. Foodidie was developed to bring recipe discovery, ingredient lists, cooking instructions, and nutritional details together in one convenient website.",
+  background:
+    "Foodidie was developed as part of a university course in Internet Technology Implementation (Penerapan Teknologi Internet). The project was carried out by a team of three students and focused on building a web-based recipe discovery platform that brings recipe information, ingredients, cooking instructions, and nutritional details together in one place.",
 
-    role: "UI/UX Designer & Frontend Developer",
+  role: "Frontend Developer",
 
-    contributions: [
-      "Designed the user interface and user experience for browsing and discovering recipes.",
-      "Structured recipe details to present ingredients, cooking instructions, and nutritional information clearly.",
-      "Implemented interactive website interfaces using React and frontend technologies.",
-      "Contributed to connecting recipe interfaces with application data and external API responses.",
-    ],
+  contributions: [
+    "Implemented the frontend interface for browsing and discovering recipes.",
+    "Developed recipe detail views to present ingredients, cooking instructions, and nutritional information.",
+    "Built interactive website interfaces using React and frontend technologies.",
+    "Contributed to integrating recipe interfaces with data retrieved from the Spoonacular API."
+  ],
 
-    process: [
-      "Identified the essential information users need when discovering and preparing recipes.",
-      "Organized recipe browsing and detail views to create a clear navigation flow.",
-      "Designed interface layouts for presenting recipe images, ingredients, instructions, and nutrition data.",
-      "Implemented the frontend and supported the integration of recipe data from the application's data sources.",
-    ],
+  process: [
+    "Reviewed the information and features needed to support recipe discovery and viewing.",
+    "Used the available UI/UX designs as a reference for implementing the website interface.",
+    "Developed the frontend pages and interactive components using React.",
+    "Integrated recipe data from the Spoonacular API into the interface to display recipe details and nutritional information."
+  ],
 
-    outcome:
-      "Contributed to a recipe discovery experience that brings cooking instructions and nutritional information together, making recipe exploration more convenient for users.",
+  outcome:
+    "Developed the frontend interface for a recipe discovery website that presents recipe details, ingredients, cooking instructions, and nutritional information sourced from the Spoonacular API.",
 
-    stack: [
-      "Laravel",
-      "React",
-      "MySQL",
-    ],
+  stack: [
+    "Laravel",
+    "React",
+    "MySQL",
+  ],
 
-    github: "https://github.com/Konanxd/Foodidie",
+  github: "https://github.com/Konanxd/Foodidie",
 
-    images: [
-      "/projects/foodidie/foodidie1.png",
-      "/projects/foodidie/foodidie2.png",
-      "/projects/foodidie/foodidie3.png",
-      "/projects/foodidie/foodidie4.png",
-      "/projects/foodidie/foodidie5.png",
-      "/projects/foodidie/foodidie6.png",
-    ],
-  },
+  images: [
+    "/projects/foodidie/foodidie1.png",
+    "/projects/foodidie/foodidie2.png",
+    "/projects/foodidie/foodidie3.png",
+    "/projects/foodidie/foodidie4.png",
+    "/projects/foodidie/foodidie5.png",
+    "/projects/foodidie/foodidie6.png",
+  ],
+},
 
   {
     slug: "project-four",
